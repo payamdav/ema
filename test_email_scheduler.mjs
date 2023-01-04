@@ -10,4 +10,5 @@ async function main() {
     const result2 = await redis.get("test");
     console.log(result2);
     redis.disconnect();
+
 }
